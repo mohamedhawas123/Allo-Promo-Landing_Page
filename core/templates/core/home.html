@@ -1,0 +1,937 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home - Allo Promo</title>
+  <meta content="Allo Promo offers [services/products] designed to [benefits/solutions]. Join us to explore innovative solutions and expert services." name="description">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  
+
+  
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <h1>Allo Promo</h1>
+        <span>.</span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+
+      <img src="{% static 'img/hero-bg.jpg' %}" alt="Innovative Marketing and Design Services at Allo Promo" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">MAKING
+                CONNECTIONS
+                DELIVERING
+                RESULTS</h2>
+            <p data-aos="fade-up" data-aos-delay="200">We are team of marketers, designers making developers</p>
+          </div>
+          <div class="col-lg-5">
+            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+              <input type="text" class="form-control" placeholder="Enter email address">
+              <input type="submit" class="btn btn-primary" value="Sign up">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero Section -->
+
+    <!-- Clients Section - Home Page -->
+    <section id="clients" class="clients">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-1.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+              <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-2.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+              <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-3.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+              <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-4.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+              <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-5.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+              <div class="col-xl-2 col-md-3 col-6 client-logo">
+                <img src="{% static 'clients/client-6.png' %}" class="img-fluid" alt="">
+              </div><!-- End Client Item -->
+              
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>Leading the way with unrivaled excellence</h2>
+            <p>Experience the extraordinary. Unleash your potential with our cutting-edge solutions. Discover unparalleled opportunities and maximize your success. Embrace innovation and redefine your future with us.</p>
+            <a href="#about" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>Unlocking boundless possibilities</h3>
+                  <p>Discover the endless potential. Experience seamless solutions that empower your journey</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-clipboard-pulse"></i>
+                  <h3>Unveiling the hidden treasures</h3>
+                  <p>Indulge in life's offerings, where dreams and desires intertwine. Explore the joys of existence, as each moment unfolds gracefully.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>Embrace every opportunity</h3>
+                  <p>Defy life's challenges with unwavering resolve. Seize the moments that define your journey. Achieve greatness through resilience and unwavering commitment</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Elevate your wisdom</h3>
+                  <p>Experience the depths of bliss, where possibilities abound. Embrace the art of choices, as every moment unveils newfound wonders.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats">
+
+        <img src="{% static 'img/stats-bg.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Stats Section -->
+
+    <!-- Services Section - Home Page -->
+    <section id="services" class="services">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>We Offer alot of Services</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+        
+
+          {% for service in services %}
+
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex px-3">
+              <img src="{{service.image}}" height="60px" width="60px" style="margin-right: 10px;" />
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">{{service.title}}</a></h4>
+                <p class="description">{{service.name}}</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+          {% endfor %}
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- Features Section - Home Page -->
+   
+
+    <!-- Portfolio Section - Home Page -->
+    <section id="portfolio" class="portfolio">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Some of Outs Products</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-1.jpg' %}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><
+              
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'img/masonry-portfolio/masonry-portfolio-2.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'img/masonry-portfolio/masonry-portfolio-2.jpg' %}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-3.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-3.jpg' %}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'img/masonry-portfolio/masonry-portfolio-4.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'img/masonry-portfolio/masonry-portfolio-4.jpg' %}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-5.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-5.jpg' %}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-6.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-6.jpg' %}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-7.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-7.jpg' %}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-8.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-8.jpg' %}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'image/masonry-portfolio/masonry-portfolio-9.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="{% static 'image/masonry-portfolio/masonry-portfolio-9.jpg' %}" title="Branding 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div><!-- End Portfolio Item -->
+              
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- Pricing Section - Home Page -->
+    <section id="pricing" class="pricing">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Free Plan</h3>
+              <div class="icon">
+                <i class="bi bi-box"></i>
+              </div>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>High-Quality Software Solutions</span></li>
+                <li><i class="bi bi-check"></i> <span>Seamless User Experience</span></li>
+                <li><i class="bi bi-check"></i> <span>Optimized Performance</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Customer-Centric Approach</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Continuous Innovation</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4">
+            <div class="pricing-item featured">
+              <h3>Business Plan</h3>
+              <div class="icon">
+                <i class="bi bi-rocket"></i>
+              </div>
+
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Effective Content Creation</span></li>
+                <li><i class="bi bi-check"></i> <span>Advanced Software Solutions</span></li>
+                <li><i class="bi bi-check"></i> <span>Seamless User Experience</span></li>
+                <li><i class="bi bi-check"></i> <span>Innovative Marketing Strategies</span></li>
+                <li><i class="bi bi-check"></i> <span>Optimized Performance</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Developer Plan</h3>
+              <div class="icon">
+                <i class="bi bi-send"></i>
+              </div>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Effective Content Creation</span></li>
+                <li><i class="bi bi-check"></i> <span>Advanced Software Solutions</span></li>
+                <li><i class="bi bi-check"></i> <span>Seamless User Experience</span></li>
+                <li><i class="bi bi-check"></i> <span>Innovative Marketing Strategies</span></li>
+                <li><i class="bi bi-check"></i> <span>Optimized Performance</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- Faq Section - Home Page -->
+    <section id="faq" class="faq">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>
+                Some People Asks thoses Questions
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>How do you measure the success of a marketing campaign?</span></h3>
+                <div class="faq-content">
+                  <p>Success for us is not just about impressive visuals or catchy taglines; it's about measurable outcomes that drive growth. We employ a combination of key performance indicators (KPIs) tailored to your campaign's objectives. These might include metrics like conversion rates, customer acquisition costs, return on ad spend, engagement rates, and more. Beyond the quantitative metrics, we also value qualitative feedback, gauging customer sentiments and brand perception. Throughout the campaign, we provide regular performance reports and insights, ensuring that you're always in the loop and confident in the ROI of our collaborative efforts.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>What differentiates your marketing strategies from other agencies?</span></h3>
+                <div class="faq-content">
+                  <p>At Allo Promo, we believe that every brand has a unique story to tell, and our approach is tailored to resonate with that distinctiveness. While other agencies might offer one-size-fits-all solutions, we dive deep into understanding your brand, your audience, and your industry landscape. Our team constantly stays abreast of the latest market trends and leverages cutting-edge data analytics tools to inform our strategies. This fusion of personalization, innovation, and data-driven insights ensures that our marketing strategies are not only distinct but also highly effective in delivering tangible results.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>What is Content Marketing?</span></h3>
+                <div class="faq-content">
+                  <p>Content marketing turns traditional marketing on its head. Instead of focusing on a company and its products or services, it focuses on the consumer’s needs first. The goal of content marketing is to provide valuable impression in order to create a relationship with them based on trust.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>Why do I need a marketing plan?</span></h3>
+                <div class="faq-content">
+                  <p>Without a written marketing plan, your business is making decisions on the fly. This results in disjointed marketing efforts, wasting time and resources on activities that may or may not work for your business. When your plan is written down, you become more focused. Committing your goals, strategies and activities to a written document is the only way to avoid losing sight of what we want to achieve.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Faq Section -->
+
+    <!-- Team Section - Home Page -->
+    <section id="team" class="team">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="{% static 'img/team/team-1.jpg' %}" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <p>The Marketing Manager is a strategic thinker responsible for overseeing the marketing team's efforts. They create and execute marketing plans</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+              <img src="{% static 'img/team/team-2.jpg' %}" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Sarah Jhonson</h4>
+              <span>Product Manager</span>
+              <p>A Software Developer is a technical expert who designs, develops, and maintains software applications</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img src="{% static 'img/team/team-3.jpg' %}" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <p>A Video Editor is a creative professional who specializes in editing video content. They use software tools to assemble, </p>
+            </div>
+          </div><!-- End Team Member -->
+
+        
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    
+
+    <!-- Testimonials Section - Home Page -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>Testimonials</h3>
+            
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                {% for testimonial in testimonials %}
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{{testimonial.client_profile.url}}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>{{testimonial.client_name}}</h3>
+                        <h4>{{testimonial.role}}</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>{{testimonial.statement}}.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                {% endfor %}
+                
+
+               
+
+               
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    <!-- Recent-posts Section - Home Page -->
+    <section id="recent-posts" class="recent-posts">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Posts</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+         
+
+         {% for post in posts %}
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article>
+                <div class="post-img">
+                    <img src="{% static 'image/blog/blog-3.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                  
+                  <p class="post-category">{{post.catelog}}</p>
+                  
+                  <h2 class="title">
+                    <a href="blog-details.html">{{post.title}}</a>
+                  </h2>
+                  
+                  <div class="d-flex align-items-center">
+                    <img src="{% static 'image/blog/blog-author-3.jpg' %}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                    <div class="post-meta">
+                      <p class="post-author">{{post.user}}</p>
+                      <p class="post-date">
+                        <time datetime="2022-01-01">Jun 22, 2022</time>
+                      </p>
+                    </div>
+                  </div>
+                  
+
+            </article>
+          </div><!-- End post list item -->
+{% endfor %}
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section><!-- End Recent-posts Section -->
+
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <!-- <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div> -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>https://www.allopromo.ca</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form id="myForm"  method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              {% csrf_token %}
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div id="loading" style="display: none;">Loading...</div>
+                  <div id="success-message" style="display: none;">Your message has been sent. Thank you!</div>
+                  <div id="error-message" style="display: none;">There was an error sending your message.</div>
+                  
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Allo Promo</span>
+          </a>
+          <p>Even if it’s not our clients’ birthdays, we have a habit of surprising our customers by over delivering results. Check out our client testimonials to see what our customers have to say.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>5000 Jean Talon O. </p>
+          <p>Montreal</p>
+          <p>Canada</p>
+          <p><strong>Email:</strong> <span>https://www.allopromo.ca</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">Allo Promo</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'vendor/aos/aos.js' %}"></script>
+<script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+<!-- Template Main JS File -->
+<script src="{% static 'js/main.js' %}"></script>
+
+<script>
+
+$(document).ready(function() {
+  
+  $('#myForm').submit(function(event) {
+    event.preventDefault()
+
+    $('#loading').show();
+    var form = this;
+
+    $.ajax({
+      type: 'POST',
+      url: "{% url 'message' %}",
+      data: $(this).serialize(),
+      success: function(data) {
+        $('#loading').hide();
+        $('#success-message').show();
+        form.reset()
+      },
+      error: function(err) {
+        $('#loading').hide();
+        $('#error-message').show();
+      }
+    })
+  })
+
+
+})
+
+</script>
+
+</body>
+
+</html>
